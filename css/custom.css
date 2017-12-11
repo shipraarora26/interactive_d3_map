@@ -1,0 +1,58 @@
+
+body {
+  text-align: center !important;
+  background: url('/imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.header {
+  margin: 20px;
+}
+
+.footer {
+  font-size: 10px;
+  font-weight: lighter;
+  margin: 20px;
+}
+
+.red-text {
+  color: red;
+}
+
+
+/* MAP STYLES */
+
+.background {
+  fill: rgba(222,222,222,0.7);
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: rgb(250,250,250);
+  stroke: #aaa;
+}
+
+.effect-layer {
+  pointer-events: none;
+}
+
+text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+text.big-text {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
+}
